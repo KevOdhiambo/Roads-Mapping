@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Oloisukut</name>
+	<StyleMap id="poly-000000-1200-77">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-000000-1200-77-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-000000-1200-77-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="icon-1502-FBC02D-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1502-FBC02D-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1502-FBC02D-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-1886-558B2F-nodesc-highlight">
+		<IconStyle>
+			<Icon>
+				<href>icon-4.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="poly-097138-1200-77-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-097138-1200-77-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-097138-1200-77-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-000000-1200-77-normal">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-097138-1200-77-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff387109</color>
+			<width>1.8</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d387109</color>
+		</PolyStyle>
+	</Style>
+	<Style id="icon-1502-FBC02D-nodesc-highlight">
+		<IconStyle>
+			<Icon>
+				<href>icon-2.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="icon-1886-558B2F-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1886-558B2F-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1886-558B2F-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-1603-AFB42B-labelson-nodesc">
+		<IconStyle>
+			<Icon>
+				<href>icon-1.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-1502-FBC02D-nodesc-normal">
+		<IconStyle>
+			<Icon>
+				<href>icon-2.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="poly-000000-1200-77-highlight">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.8</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="icon-1765-0288D1-nodesc-highlight">
+		<IconStyle>
+			<Icon>
+				<href>icon-3.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-1886-558B2F-nodesc-normal">
+		<IconStyle>
+			<Icon>
+				<href>icon-4.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="poly-097138-1200-77-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff387109</color>
+			<width>1.2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d387109</color>
+		</PolyStyle>
+	</Style>
+	<Style id="icon-1765-0288D1-nodesc-normal">
+		<IconStyle>
+			<Icon>
+				<href>icon-3.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="icon-1765-0288D1-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1765-0288D1-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1765-0288D1-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Villa sites</name>
+		<Placemark>
+			<name>Elojata Site</name>
+			<styleUrl>#icon-1603-AFB42B-labelson-nodesc</styleUrl>
+			<Point>
+				<coordinates>35.067732,-1.1483366,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>River site</name>
+			<styleUrl>#icon-1603-AFB42B-labelson-nodesc</styleUrl>
+			<Point>
+				<coordinates>35.105961,-1.1446891,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rangers Outpost site</name>
+			<styleUrl>#icon-1603-AFB42B-labelson-nodesc</styleUrl>
+			<Point>
+				<coordinates>35.0963495,-1.133883,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Big Rock site</name>
+			<styleUrl>#icon-1603-AFB42B-labelson-nodesc</styleUrl>
+			<Point>
+				<coordinates>35.073746,-1.1473674,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Jacksons site</name>
+			<styleUrl>#icon-1603-AFB42B-labelson-nodesc</styleUrl>
+			<Point>
+				<coordinates>35.0575255,-1.1724953,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Phase 1 core conservation area</name>
+		<Placemark>
+			<name>Phase 1 conservation area</name>
+			<styleUrl>#poly-097138-1200-77-nodesc</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							35.0549672,-1.1922783,0 35.0572846,-1.1913343,0 35.056083,-1.1889316,0 35.0562546,-1.1867863,0 35.0586579,-1.1866147,0 35.0607178,-1.1853275,0 35.0633786,-1.1824099,0 35.0650952,-1.183268,0 35.0659535,-1.183268,0 35.0657818,-1.1798355,0 35.0685284,-1.1801787,0 35.0710175,-1.1788057,0 35.0721763,-1.1765746,0 35.0734208,-1.1749442,0 35.0765107,-1.1727989,0 35.0767682,-1.1690231,0 35.0785706,-1.166792,0 35.0796006,-1.1627588,0 35.082433,-1.161729,0 35.0832055,-1.160356,0 35.0831196,-1.1585539,0 35.0858662,-1.1579532,0 35.0884411,-1.1546065,0 35.0901577,-1.1568377,0 35.0941918,-1.1556363,0 35.0949643,-1.152547,0 35.09711,-1.1494577,0 35.0978825,-1.1473124,0 35.0953934,-1.1425926,0 35.0963376,-1.1399324,0 35.1041481,-1.1442231,0 35.1062081,-1.1466259,0 35.1086972,-1.148428,0 35.1105854,-1.1439656,0 35.1134179,-1.139675,0 35.088012,-1.125344,0 35.0865529,-1.1292915,0 35.0832913,-1.1345261,0 35.0805447,-1.1371006,0 35.0749657,-1.1432791,0 35.0680134,-1.1431075,0 35.0626919,-1.1481705,0 35.0619194,-1.1540058,0 35.0598595,-1.1581249,0 35.0445816,-1.177776,0 35.0549672,-1.1922783,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Nyota Community Lodge</name>
+			<styleUrl>#icon-1502-FBC02D-nodesc</styleUrl>
+			<Point>
+				<coordinates>35.0557617,-1.1911082,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Neptune Lodge</name>
+			<styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>35.088196,-1.1579164,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Phase 2 critical forest protection area</name>
+		<Placemark>
+			<name>Critical forest protection &amp; rewilding,  Nyakwere forest wildlife corridors</name>
+			<description>Phase 2</description>
+			<styleUrl>#poly-000000-1200-77</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							35.04441,-1.1777329,0 35.0512087,-1.1687673,0 35.0572169,-1.1611299,0 35.0617479,-1.1544777,0 35.0625203,-1.1481274,0 35.0649237,-1.1458535,0 35.0678418,-1.1430644,0 35.0713181,-1.1429787,0 35.0747941,-1.143236,0 35.0785278,-1.1387738,0 35.0831197,-1.134483,0 35.0878404,-1.1253009,0 35.0795328,-1.119167,0 35.0747263,-1.12054,0 35.0630533,-1.123801,0 35.0615084,-1.1215698,0 35.0513804,-1.117794,0 35.041424,-1.1193386,0 35.0321543,-1.12054,0 35.0268328,-1.1195103,0 35.0199663,-1.1225996,0 35.0155031,-1.1234577,0 35.0142157,-1.1195961,0 35.0081217,-1.1181372,0 35.0108683,-1.1291214,0 35.0057184,-1.1334121,0 34.9971354,-1.1378745,0 34.9923289,-1.1356433,0 34.9844324,-1.1375312,0 34.9832308,-1.1435382,0 34.9880373,-1.1507465,0 34.9949038,-1.1526344,0 35.0003969,-1.1598427,0 35.0086367,-1.1685956,0 35.0060618,-1.1732295,0 35.0129282,-1.1811243,0 34.9890673,-1.195884,0 34.9921572,-1.2192247,0 35.0081217,-1.2224856,0 35.0148165,-1.2193964,0 35.0342142,-1.2223139,0 35.0374758,-1.2200829,0 35.0374758,-1.2166504,0 35.0354159,-1.2149342,0 35.0373041,-1.2115017,0 35.041939,-1.2130463,0 35.0417673,-1.2103004,0 35.0400507,-1.2058382,0 35.0452006,-1.2030922,0 35.0498354,-1.200003,0 35.0510371,-1.1970853,0 35.0503504,-1.1934812,0 35.0547956,-1.1922352,0 35.0496977,-1.1856071,0 35.04441,-1.1777329,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Nyakwere Forest</name>
+		<Placemark>
+			<name>Nyakwere Forest Conservation area</name>
+			<styleUrl>#icon-1886-558B2F-nodesc</styleUrl>
+			<Point>
+				<coordinates>34.9426156,-1.2086985,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
