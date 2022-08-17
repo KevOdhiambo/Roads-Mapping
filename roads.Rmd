@@ -1,0 +1,41 @@
+---
+title: "roads"
+author: "Kev"
+date: "2022-08-17"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+library(osmdata)
+library(sf)
+
+ol<- sf::read_sf("Oloisukut2.kml")
+ol
+
+call <- opq(bbox = c(35.05753, -1.172495,35.10596,-1.133883)) 
+call <- add_osm_feature(call, key = "roads",value="motorway")
+mydata <- osmdata_sf(call)
+mydata
+
+# The returned object stores some points, lines and polygons.
+
+# First get background map
+library(ggmap)
+library(ggplot2)
+
+mad_map <- get_map(getbb("Kenya"), maptype = "roadmap",source="osm",color="bw")
+
+install.packages("rgeos")
+library(maptools)
+#Then plot:
+ggmap(mad_map)+
+  geom_sf(data = mydata$osm_lines,
+          geometry = "line", 
+          inherit.aes = FALSE)
+
+```
