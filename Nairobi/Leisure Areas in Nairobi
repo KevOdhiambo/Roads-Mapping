@@ -1,0 +1,7 @@
+# Green Spaces In Nairobi
+
+
+In this project, I employed SF, osmdata and ggmap packages. These were the main packages used in the project among others. The goal of the project was to identiy green spaces in Nairoi city, Kenya.
+The green spaces were classified using Leisure as the Key and the values were the Parks, Golf Courses and Nature Reserve.
+After ientiying the spaces, I transsfomred the polygons into multipolygons beore binding them into one SF objcet. Later on went aea to plot, and rom the resulting plot there's
+a map showcasing all the green spaces in nairobi. A legend is included to make it easier readding the map plot.
